@@ -11,6 +11,7 @@ namespace BS.MVC.Git.Exercise.Controllers
         // GET: Product
         public ActionResult Index()
         {
+            ViewData["info"] = "hello";
             return View();
         }
     }
